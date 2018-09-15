@@ -18,7 +18,7 @@ function reset() {
     for (let i = 0; i < 4; i++) {
         randoms[i] = ran(12)
     }
-    console.log(randoms)
+    console.log("Cheater! Here is what you are looking for: " + randoms)
     ranGuess = ran(102) + 18
     coins = coins - 100
     count = 0;
